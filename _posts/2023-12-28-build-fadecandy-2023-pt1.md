@@ -143,4 +143,4 @@ There was some reworking needed to remove a few bridges around the LQFP package.
 
 ![boards reflowed]({{ site.url }}/assets/images/fadecandy/DSC_8548.jpg)
 
-Next part: **programming!**
+Next part: [**programming!**]({% post_url 2025-07-06-build-fadecandy-2025-pt2 %})
