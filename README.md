@@ -6,7 +6,7 @@ Personal github page.
 
 ### Ruby Environment Setup (rbenv)
 
-This project uses Ruby 2.7.8. To set up your local development environment:
+This project uses Ruby 3.4.4. To set up your local development environment:
 
 1. **Install rbenv** (if not already installed):
    ```bash
@@ -18,12 +18,12 @@ This project uses Ruby 2.7.8. To set up your local development environment:
 
 2. **Install the required Ruby version**:
    ```bash
-   rbenv install 2.7.8
+   rbenv install 3.4.4
    ```
 
 3. **Set the local Ruby version** (this should already be configured via `.ruby-version`):
    ```bash
-   rbenv local 2.7.8
+   rbenv local 3.4.4
    ```
 
 4. **Install dependencies**:
