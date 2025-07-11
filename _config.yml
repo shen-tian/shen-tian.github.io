@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Tinkerer, Capetownian, Runner, Burner
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shentian.me" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: UA-93533489-2
+google_analytics: G-PPC6306M88
 
 github_username:  shen-tian
 linkedin_username: shentian
