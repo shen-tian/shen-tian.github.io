@@ -27,7 +27,7 @@ The hacker port is a set of pads on the back side of the board. I've used a 0.1"
 
 Here's a pinout
 
-{% picture fc-hacker-port.png --alt hacker port pin numbering %}
+{% picture fc-hacker-port.jpg --alt hacker port pin numbering %}
 
 | #   | Label    | Purpose                        |
 | --- | -------- | ------------------------------ |
