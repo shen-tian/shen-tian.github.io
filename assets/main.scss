@@ -49,4 +49,8 @@
 .post-content img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
 }
