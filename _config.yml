@@ -33,3 +33,4 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - CLAUDE.md
