@@ -1,0 +1,10 @@
+presets:
+  default:
+    formats: [jpg]
+    widths: [600, 1200]
+    fallback_width: 600
+    fallback_format: jpg
+    link_source: true
+    format_quality:
+      jpg: 80
+    dimension_attributes: true

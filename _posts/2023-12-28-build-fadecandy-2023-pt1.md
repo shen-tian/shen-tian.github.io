@@ -29,11 +29,11 @@ The goal is a reasonably close reproduction of an Adafruit revision B board. The
 
 It’s worth noting that a Fadecandy, electrically, is based on a [Teensy 3.0](https://www.pjrc.com/store/teensy3.html) + [OctoWS2811 adapter](https://www.pjrc.com/store/octo28_adaptor.html), less Teensy’s two-chip bootloader setup, plus a 5V power supply. This will be useful in most component selection questions. I made good use of [this forum thread](https://forum.pjrc.com/index.php?threads/questions-on-teensy-3-1-components.26916/).
 
-![fx64x8 schematic]({{ site.url }}/assets/images/fc64x8-schematic.png)
+{% picture fc64x8-schematic.png --alt fx64x8 schematic %}
 
 A example of a (water damaged and dead) Fadecandy rev b board
 
-![reb v fadecandy]({{ site.url }}/assets/images/fadecandy/DSC_8498.jpg)
+{% picture fadecandy/DSC_8498.jpg --alt rev b fadecandy %}
 
 Working through the schematic…
 
@@ -122,25 +122,26 @@ This decisions described above. For the capacitors and resistors, I included a D
 
 I ordered the boards and a stencil from JLCPCB. It looks like hand soldering the board should be possible, but I didn't try.
 
-![board and stencil]({{ site.url }}/assets/images/fadecandy/IMG_1702.HEIC)
-![board front]({{ site.url }}/assets/images/fadecandy/DSC_8500.jpg)
-![board back]({{ site.url }}/assets/images/fadecandy/DSC_8504.jpg)
-![stencil closeup]({{ site.url }}/assets/images/fadecandy/DSC_8517.jpg)
+{% picture fadecandy/IMG_1702.jpg --alt board and stencil %}
+{% picture fadecandy/IMG_1701.jpg --alt boards and stencils %}
+{% picture fadecandy/DSC_8500.jpg --alt board front %}
+{% picture fadecandy/DSC_8504.jpg --alt board back %}
+{% picture fadecandy/DSC_8517.jpg --alt stencil closeup %}
 
 I applied the paste using a [vacuum rig](https://www.youtube.com/watch?v=mEEo1tJj9D8&ab_channel=MariusHeier) to hold the stencil flat. It wasn't as neat as it should have been. I'm still figuring out the vacuum method.
 
-![board in jig]({{ site.url }}/assets/images/fadecandy/IMG_1704.HEIC)
-![stencil aligned on jig]({{ site.url }}/assets/images/fadecandy/IMG_1705.HEIC)
-![paste applied]({{ site.url }}/assets/images/fadecandy/DSC_8526.jpg)
-![pasted board]({{ site.url }}/assets/images/fadecandy/DSC_8533.jpg)
-![boards with components]({{ site.url }}/assets/images/fadecandy/DSC_8541.jpg)
+{% picture fadecandy/IMG_1704.jpg --alt board in jig %}
+{% picture fadecandy/IMG_1705.jpg --alt stencil aligned on jig %}
+{% picture fadecandy/DSC_8526.jpg --alt paste applied %}
+{% picture fadecandy/DSC_8533.jpg --alt pasted board %}
+{% picture fadecandy/DSC_8541.jpg --alt boards with components %}
 
 This was all reflowed on an Aliexpress 100x100mm hot plate.
 
-![boards on hotplate]({{ site.url }}/assets/images/fadecandy/DSC_8546.jpg)
+{% picture fadecandy/DSC_8546.jpg --alt boards on hotplate %}
 
 There was some reworking needed to remove a few bridges around the LQFP package.
 
-![boards reflowed]({{ site.url }}/assets/images/fadecandy/DSC_8548.jpg)
+{% picture fadecandy/DSC_8548.jpg --alt boards reflowed %}
 
 Next part: [**programming!**]({% post_url 2025-07-06-build-fadecandy-2025-pt2 %})

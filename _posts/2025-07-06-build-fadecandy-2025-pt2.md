@@ -27,7 +27,7 @@ The hacker port is a set of pads on the back side of the board. I've used a 0.1"
 
 Here's a pinout
 
-![hacker port pin numbering]({{ site.url }}/assets/images/fc-hacker-port.png)
+{% picture fc-hacker-port.png --alt hacker port pin numbering %}
 
 | #   | Label    | Purpose                        |
 | --- | -------- | ------------------------------ |
@@ -56,10 +56,10 @@ Only five of these pins need to be connected to the JTAG connector for SWD
 
 I built the following jig
 
-![board in jig]({{ site.url }}/assets/images/fadecandy/IMG_6005.jpg)
-![just the jig]({{ site.url }}/assets/images/fadecandy/IMG_6006.jpg)
-![pogo closeup]({{ site.url }}/assets/images/fadecandy/IMG_6008.jpg)
-![back of the jig]({{ site.url }}/assets/images/fadecandy/IMG_6009.jpg)
+{% picture fadecandy/IMG_6005.jpg --alt board in jig %}
+{% picture fadecandy/IMG_6006.jpg --alt just the jig %}
+{% picture fadecandy/IMG_6008.jpg --alt pogo closeup %}
+{% picture fadecandy/IMG_6009.jpg --alt back of the jig %}
 
 > [It's an Omnifixo](https://omnifixo.com/) in case you are were wondering.
 

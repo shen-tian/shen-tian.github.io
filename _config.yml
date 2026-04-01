@@ -34,3 +34,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - CLAUDE.md
+
+picture:
+  source: "assets/images"
+  output: "generated"
