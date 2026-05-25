@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install libvips
-        run: sudo apt-get install -y libvips-dev libheif-dev
+        run: sudo apt-get update && sudo apt-get install -y libvips-dev libheif-dev
 
       - name: Checkout
         uses: actions/checkout@v4
